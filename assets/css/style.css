@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background: url("../images/game-bg.jpg") no-repeat fixed center;
     color: #fafafa;
@@ -15,12 +21,27 @@ body {
     padding-bottom: 40px;
 }
 
-.back, .front {
-    height: 150px;
-    width: 150px;
+.game-container {
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(25% - 10px);
+    height: calc(25% - 10px);
+    margin: 5px;
     position: relative;
 }
 
 .front {
     border-radius: 5%;
+}
+
+.front, .back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
