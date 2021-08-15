@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background: url("../images/game-bg.jpg") no-repeat fixed center;
+    color: #fafafa;
+    font-family: "Montserrat", sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.page-heading {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.back, .front {
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+
+.front {
+    border-radius: 5%;
+}
