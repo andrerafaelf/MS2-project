@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+.footer {
+    margin-top: 100px;
+}
+
 .footer a {
     color: #fafafa;
 }
