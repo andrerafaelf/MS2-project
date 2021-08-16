@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+.footer a {
+    color: #fafafa;
+}
+
 body {
     background: url("../images/game-bg.jpg") no-repeat fixed center;
     color: #fafafa;
