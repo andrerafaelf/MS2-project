@@ -57,6 +57,7 @@ body {
     justify-content: center;
     align-items: center;
     backface-visibility: hidden;
+    transition: transform 500ms ease-in-out;
 }
 
 .card:hover .card-back {
