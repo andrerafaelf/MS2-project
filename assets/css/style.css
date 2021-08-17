@@ -43,10 +43,11 @@ body {
     perspective: 500px;
 }
 
-.card {
+.card1 {
     position: relative;
     height: 175px;
     width: 125px;
+    background-color: transparent;
 }
 
 .card-face {
@@ -60,11 +61,11 @@ body {
     transition: transform 500ms ease-in-out;
 }
 
-.card:hover .card-back {
+.card1:hover .card-back {
     transform: rotateY(-180deg);
 }
 
-.card:hover .card-front {
+.card1:hover .card-front {
     transform: rotateY(0);
 }
 
