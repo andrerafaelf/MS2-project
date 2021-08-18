@@ -54,7 +54,7 @@ class MixOrMatch {
         this.timeRemaining = this.totalTime;
         this.matchedCards = [];
         this.busy = true;
-
+        this.shuffleCards();
     }
 
     flipCard(card) {
@@ -66,9 +66,17 @@ class MixOrMatch {
         }
     }
 
+    shuffleCards() {
+        for(let i = this.cardsArray.length - 1; i > 0; i--) {
+            let randIndex = Math.floor(Math.random() * (i+1));
+            this.cardsArray[randIndex].style.order = i;
+            this.cardsArray[i].style.order = randIndex;
+        }
+    }
+
     canFlipCard(card) {
         return true;
-        
+        //return !this.busy && !this.matchedCards.includes(card) && card !== this.cardToCheck;
     }
 }
 
