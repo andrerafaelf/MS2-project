@@ -8,8 +8,8 @@ class AudioController {
         this.bgMusic.loop = true;
         this.bgMusic.volume = 0.04;
         this.flipSound.volume = 0.6;
-        this.victorySound.volume = 0.1;
-        this.gameOverSound.volume = 0.1;
+        this.victorySound.volume = 0.06;
+        this.gameOverSound.volume = 0.06;
         this.matchSound.volume = 0.5;
     }
 
@@ -42,13 +42,13 @@ class AudioController {
 }
 
 class MixOrMatch {
-    constructor(totalTime, cards) {
+    constructor(totalTime, cards, audioController) {
         this.cardsArray = cards;
         this.totalTime = totalTime;
         this.timeRemaining = totalTime;
         this.timer = document.getElementById("timer");
         this.ticker = document.getElementById("attempts");
-        this.audioController = new AudioController();
+        this.audioController = audioController
     }
 
     startGame() {
@@ -162,13 +162,13 @@ if(document.readyState === "loading") {
 function ready() {
     let overlays = Array.from(document.getElementsByClassName("landing-page"));
     let cards = Array.from(document.getElementsByClassName("card1"));
-    let game = new MixOrMatch(90, cards);
+    let audioController = new AudioController();
+    let game = new MixOrMatch(90, cards, audioController);
 
     overlays.forEach(overlay => {
         overlay.addEventListener("click", () => {
             overlay.classList.remove("visible");
-            game.startGame();
-            let audioController = new AudioController();
+            game.startGame();            
             audioController.startMusic();
         });
     });
