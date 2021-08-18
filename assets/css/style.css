@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "SnesItalic";
+    src: url("../fonts/SnesItalic.ttf");
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 * {
@@ -19,8 +23,8 @@ body {
     padding-top: 40px;
     padding-bottom: 40px;
     color: #fafafa;
-    font-size: 80px;
-    font-family: "Montserrat", sans-serif;
+    font-size: 100px;
+    font-family: "SnesItalic", sans-serif;
 }
 
 /*--------------------------------------------Game Intro*/
@@ -35,7 +39,7 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 100;
-    font-family: "Montserrat", sans-serif;
+    font-family: "SnesItalic", sans-serif;
     color: #fafafa;
 }
 
@@ -71,7 +75,8 @@ body {
 
 .game-info {
     color: #fafafa;
-    font-size: 26px;
+    font-size: 30px;
+    font-family: "SnesItalic", sans-serif;
 }
 
 .game-container {
@@ -173,6 +178,6 @@ button[type="submit"] {
         padding-bottom: 40px;
         color: #fafafa;
         font-size: 40px;
-        font-family: "Montserrat", sans-serif;
+        font-family: "SnesItalic", sans-serif;
     }
   }
