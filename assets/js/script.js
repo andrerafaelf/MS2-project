@@ -62,6 +62,7 @@ class MixOrMatch {
             this.audioController.flip();
             this.totalClicks++;
             this.ticker.innerText = this.totalClicks;
+            card.classList.add("visible");
         }
     }
 
