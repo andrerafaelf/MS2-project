@@ -29,7 +29,7 @@ body {
 
 /*--------------------------------------------Game Intro*/
 
-.landing-page, .gameover-page, .victory-page {
+.landing-page {
     display: none;
     position: fixed;
     top: 0;
