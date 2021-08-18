@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+@font-face {
+    font-family: "Friz Quadrata Regular";
+    src: url("../fonts/Friz\ Quadrata\ Regular.ttf") format("ttf");
+}
 * {
     box-sizing: border-box;
 }
@@ -11,7 +14,7 @@ html {
 
 body {
     background: url("../images/game-bg.jpg") no-repeat fixed center;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Friz Quadrata Regular", sans-serif;
     margin: 0;
 }
 
