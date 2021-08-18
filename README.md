@@ -31,9 +31,7 @@ This is a memory game set to improve brain functionality, concentration and focu
     -   #### Colour Scheme
         -   The two main colours used are dark green and black.
     -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
-    -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        -   The SNES Italic font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is used as a secondary font for sections of the contact page and the footer with Sans Serif as the fallback font too.
 
 *   ### Wireframes
 
