@@ -41,6 +41,8 @@ body {
     z-index: 100;
     font-family: "SnesItalic", sans-serif;
     color: #fafafa;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
 .landing-small-text {
