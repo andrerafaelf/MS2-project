@@ -4,7 +4,7 @@
 
 This is a memory game set to improve brain functionality, concentration and focus.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center"><img src="assets/images/pc_mockup1-01.jpg"></h2>
 
 ## User Experience (UX)
 
