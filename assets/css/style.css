@@ -46,8 +46,9 @@ body {
 }
 
 .landing-small-text {
-    font-size: 25px;
+    font-size: 35px;
     margin-top: 20px;
+    text-decoration: underline;
 }
 
 .landing-page.visible, .gameover-page.visible, .victory-page.visible {
@@ -63,7 +64,7 @@ body {
    }
    to {
     background-color: rgba(0, 0, 0, 0.9);
-       font-size: 60px;
+       font-size: 70px;
    }
 }
 
@@ -180,6 +181,23 @@ button[type="submit"] {
         padding-bottom: 40px;
         color: #fafafa;
         font-size: 40px;
-        font-family: "SnesItalic", sans-serif;
+        font-family: "SnesItalic", sans-serif;  
     }
-  }
+  
+    .landing-page.visible, .gameover-page.visible, .victory-page.visible {
+        display: flex;
+        flex-direction: column;
+        animation: landingpage-zoom 500ms forwards;
+    }
+    
+    @keyframes landingpage-zoom {
+       from {
+           background-color: rgba(0, 0, 0, 0);
+           font-size: 0;
+       }
+       to {
+        background-color: rgba(0, 0, 0, 0.9);
+           font-size: 30px;
+       }
+    }
+}

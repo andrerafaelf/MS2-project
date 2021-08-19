@@ -6,11 +6,11 @@ class AudioController {
         this.victorySound = new Audio("assets/audio/victory.mp3");
         this.gameOverSound = new Audio("assets/audio/defeat.mp3");
         this.bgMusic.loop = true;
-        this.bgMusic.volume = 0.04;
-        this.flipSound.volume = 0.6;
-        this.victorySound.volume = 0.06;
-        this.gameOverSound.volume = 0.06;
-        this.matchSound.volume = 0.5;
+        this.bgMusic.volume = 0.07;
+        this.flipSound.volume = 0.5;
+        this.victorySound.volume = 0.07;
+        this.gameOverSound.volume = 0.07;
+        this.matchSound.volume = 0.6;
     }
 
     startMusic() {
