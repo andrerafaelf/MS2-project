@@ -91,7 +91,7 @@ body {
     perspective: 500px;
 }
 
-.card1 {
+.game-card {
     position: relative;
     height: 175px;
     width: 125px;
@@ -109,11 +109,11 @@ body {
     transition: transform 500ms ease-in-out;
 }
 
-.card1.visible .card-back {
+.game-card.visible .card-back {
     transform: rotateY(-180deg);
 }
 
-.card1.visible .card-front {
+.game-card.visible .card-front {
     transform: rotateY(0);
 }
 

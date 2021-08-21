@@ -161,7 +161,7 @@ if(document.readyState === "loading") {
 
 function ready() {
     let overlays = Array.from(document.getElementsByClassName("landing-page"));
-    let cards = Array.from(document.getElementsByClassName("card1"));
+    let cards = Array.from(document.getElementsByClassName("game-card"));
     let audioController = new AudioController();
     let game = new MixOrMatch(90, cards, audioController);
 
