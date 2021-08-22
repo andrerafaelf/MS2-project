@@ -1,6 +1,6 @@
 <h1 align="center">League of Match-a-Legends card game</h1>
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.](https://andrerafaelf.github.io/MS2-project/)
 
 This is a memory game set to improve brain functionality, concentration and focus.
 
@@ -45,7 +45,11 @@ This is a memory game set to improve brain functionality, concentration and focu
 
 -   Interactive elements
 
-## Technologies Used
+-   Start, Defeat and Victory game overlay
+
+-   Timer
+
+-   Attempts counter
 
 ### Languages Used
 
@@ -175,7 +179,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   Part of the core structure of the javascript code came from here [Portexe youtube](https://www.youtube.com/watch?v=3uuQ3g92oPQ)
+-   Part of the structure of the javascript code came from [here](https://www.youtube.com/watch?v=3uuQ3g92oPQ)
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
